@@ -1,0 +1,3 @@
+setup.py
+KXMLParser.egg-info/*
+dist/*
