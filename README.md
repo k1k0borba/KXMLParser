@@ -13,7 +13,9 @@ pip install xmltodict
 
 ####Instalation
 
+```bash
 pip install KXMLParser
+```
 
 Setting parser, edit settings.py :
 
