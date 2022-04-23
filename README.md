@@ -1,4 +1,4 @@
-# kxmlparser
+# KXMLParser
 Rest-Framework Parser Convert xml to json
 
 ##Getting Started
@@ -9,10 +9,19 @@ You also need json and xmltodict packages available from PyPI, if you have pip j
 pip install xmltodict
 
 ####Instalation
-Clone this repo to your Local Machine using:
-```
-git clone https://github.com/k1k0borba/KXMLParser.git
-```
+
+pip install KXMLParser
+
+Setting parser, edit settings.py :
+
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'KXMLParser.parsers.XMLParser',
+        
+    ],
+}
+
+
 
 ## Features
 - File structure for PyPI packages
