@@ -14,12 +14,14 @@ pip install KXMLParser
 
 Setting parser, edit settings.py :
 
+```python
 REST_FRAMEWORK = {
     'DEFAULT_PARSER_CLASSES': [
         'KXMLParser.parsers.XMLParser',
         
     ],
 }
+```
 
 
 
