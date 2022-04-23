@@ -1,5 +1,5 @@
 # KXMLParser
-Rest-Framework Parser Convert xml to json
+Rest-Framework Parser Convert xml to json, including attributes
 
 ##Getting Started
 #### Dependencies
