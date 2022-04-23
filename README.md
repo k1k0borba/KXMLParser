@@ -6,7 +6,10 @@ Rest-Framework Parser Convert xml to json
 You need Python 3.7 or later
 
 You also need json and xmltodict packages available from PyPI, if you have pip just run:
+
+```bash
 pip install xmltodict
+```
 
 ####Instalation
 
