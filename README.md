@@ -32,7 +32,7 @@ Example
 <?xml version="1.0" encoding="UTF-8"?>
 <pessoas>
     <pessoa codigo="1" nome="Fulano" telefone="2222-2222">
-        <endereco>
+        <endereco referencia='Ponto de Onibus, Pomar'>
             <rua>Rua Marfim</rua>
             <numero>1</numero>
             <cidade>Ouro Preto</cidade>
@@ -40,7 +40,7 @@ Example
         </endereco>
     </pessoa>
     <pessoa codigo="2" nome="Beltrano" telefone="3333-3333">
-            <endereco>
+            <endereco referencia='Ponto de Onibus, Pomar'>
             <rua>Rua Marfim</rua>
             <numero>2</numero>
             <cidade>Ouro Preto</cidade>
@@ -48,7 +48,7 @@ Example
         </endereco>
     </pessoa>
     <pessoa codigo="1" nome="Ciclano" telefone="4444-4444">
-            <endereco>
+            <endereco referencia='Ponto de Onibus, Pomar'>
             <rua>Rua Marfim</rua>
             <numero>3</numero>
             <cidade>Ouro Preto</cidade>
@@ -67,6 +67,7 @@ Result
                 "@nome": "Fulano",
                 "@telefone": "2222-2222",
                 "endereco": {
+                    "@referencia": "Ponto de Onibus, Pomar",
                     "rua": "Rua Marfim",
                     "numero": "1",
                     "cidade": "Ouro Preto",
@@ -78,6 +79,7 @@ Result
                 "@nome": "Beltrano",
                 "@telefone": "3333-3333",
                 "endereco": {
+                    "@referencia": "Ponto de Onibus, Pomar",
                     "rua": "Rua Marfim",
                     "numero": "2",
                     "cidade": "Ouro Preto",
@@ -89,6 +91,7 @@ Result
                 "@nome": "Ciclano",
                 "@telefone": "4444-4444",
                 "endereco": {
+                    "@referencia": "Ponto de Onibus, Pomar",
                     "rua": "Rua Marfim",
                     "numero": "3",
                     "cidade": "Ouro Preto",
